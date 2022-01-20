@@ -64,9 +64,7 @@ Now that we've the training data, in the form of sentences, we created a `class`
 All of this is managed in the `main` method where the pipeline is created, the final result is a trained spacy [model](https://github.com/benoitmargx/Project_06-Algorythm/tree/sebastian/custom_nlp) that's saved and ready to be used.
 
 ### Limitation
-
-we failed to test our model due time shortage. 
-We also got a last minute parsing error generating the trainig sentences to feed the model.
+- The model is developped but still need some validation.
 
 ### Usage
 
@@ -91,8 +89,10 @@ Some of the limitations are:
 ## Further Development
 To make the work more complete, it would be good to have  the Nice to have features included.
 
-  * Implementation of Neo4j
-  * Deployment
+  * Implementation of Neo4j;
+  * Deployment;
+  * The custom model should be integrated to the main project;
+  * The use of Neuralcoref should be automatized.
 
 ## Personal situation
 
